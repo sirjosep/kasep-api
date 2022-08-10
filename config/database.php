@@ -48,7 +48,7 @@ return [
             'url' => env('DATABASE_URL'),
             'host' => env('DB_HOST', 'containers-us-west-65.railway.app'),
             'port' => env('DB_PORT', '5676'),
-            'database' => env('DB_DATABASE', 'railways'),
+            'database' => env('DB_DATABASE', 'railway'),
             'username' => env('DB_USERNAME', 'root'),
             'password' => env('DB_PASSWORD', '89BRiXzCfz1ZIEeCqeXh'),
             'unix_socket' => env('DB_SOCKET', ''),
